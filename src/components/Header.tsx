@@ -2,33 +2,34 @@ import Icon from "@/components/ui/icon";
 
 const Header = () => {
   return (
-    <header className="bg-white shadow-sm border-b">
+    <header className="bg-black text-white">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-2">
-            <Icon name="Mountain" size={32} className="text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">
-              ГеоИнжиниринг
+        <div className="flex justify-between items-center h-20">
+          <div className="flex items-center space-x-4">
+            <span className="text-xs font-light tracking-wider text-blue-400">
+              TECHNOLOGY
             </span>
           </div>
-          <div className="hidden md:flex space-x-8">
+          <div className="text-center">
+            <h1 className="text-lg font-bold tracking-wide">
+              ГЕОЛОГО-ИНЖИНИРИНГОВЫЙ ЦЕНТР
+            </h1>
+          </div>
+          <div className="hidden md:flex space-x-8 text-sm">
             <a
               href="#services"
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="hover:text-blue-400 transition-colors"
             >
-              Услуги
+              УСЛУГИ
             </a>
-            <a
-              href="#about"
-              className="text-gray-700 hover:text-blue-600 transition-colors"
-            >
-              О компании
+            <a href="#about" className="hover:text-blue-400 transition-colors">
+              О НАС
             </a>
             <a
               href="#contact"
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="hover:text-blue-400 transition-colors"
             >
-              Контакты
+              КОНТАКТЫ
             </a>
           </div>
         </div>
